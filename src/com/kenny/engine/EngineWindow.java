@@ -35,7 +35,7 @@ public class EngineWindow
 	{
 		if(!GLFW.glfwInit())
 		{
-			System.err.println("GLFW не инициализирована!");
+			System.err.println("GLFW РЅРµ РёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅР°!");
 			System.exit(-1);
 		}
 		
@@ -44,7 +44,7 @@ public class EngineWindow
 		
 		if(this.id == 0)
 		{
-			System.err.println("Окно равно 0! Не могу создать окно!");
+			System.err.println("РћРєРЅРѕ СЂР°РІРЅРѕ 0! РќРµ РјРѕРіСѓ СЃРѕР·РґР°С‚СЊ РѕРєРЅРѕ!");
 			System.exit(-1);
 		}
 		
